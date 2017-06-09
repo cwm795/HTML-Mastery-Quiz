@@ -8,8 +8,7 @@ background-color: #C7BFC0;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    /*background-color: #0C541D*/;
-    background: rgba(12, 84, 29, 0.5)
+    background: rgba(12, 84, 29, 0.5);
 }
 
 li {
@@ -29,13 +28,17 @@ li a:hover {
     background-color: #111;
 }
 
-li .active {
+li a:active {
     background-color: #000;
 }
 /*fonts*/
 
 h3, section {
 	font-family: 'Oxygen', sans-serif;
+
+}
+h1, nav, p {
+	font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -47,3 +50,37 @@ img {
 
 
 
+/*footer*/
+footer
+{
+text-align: center;
+   color: white;
+   font-size: 1.05em;
+   position: static;
+   height:17px;
+   width:100%;
+   background: rgba(12, 84, 29, 0.5);
+}
+
+#AdjustedFooter
+{
+	position: absolute;
+	left: 0px;
+    bottom: -170px;
+}
+img {
+  max-width:75%;
+  max-height:75%;
+}
+img {
+  max-width:80%;
+  max-height:80%;
+}
+
+
+
+/*Text editing*/
+p, h1, section {
+	color: white;
+	text-align: center;
+}
