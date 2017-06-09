@@ -1,4 +1,49 @@
 body {
-background-color: red;
-
+background-color: #C7BFC0;
 }
+
+/*Nav Bar*/
+.NavBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*background-color: #0C541D*/;
+    background: rgba(12, 84, 29, 0.5)
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: #111;
+}
+
+li .active {
+    background-color: #000;
+}
+/*fonts*/
+
+h3, section {
+	font-family: 'Oxygen', sans-serif;
+}
+
+
+/*Img editing*/
+img {
+	border-radius: 10%;
+	height: 200px;
+}
+
+
+
